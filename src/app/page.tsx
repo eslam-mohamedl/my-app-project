@@ -3,6 +3,7 @@ import AboutSection from "@/components/organisms/AboutSection";
 import ContactSection from "@/components/organisms/ContactSection";
 import HeroSection from "@/components/organisms/HeroSection";
 import Navbar from "@/components/organisms/Navbar";
+import Ahmed from "@/components/Ahmed";
 import PortfolioSection from "@/components/organisms/PortfolioSection";
 import BahaaSection from "@/components/organisms/BahaaSection";
 import Testimonial from "@/components/organisms/Testimonial";
@@ -17,6 +18,7 @@ export default function page() {
     <div>
       <HeroSection />
       <Navbar />
+      <Ahmed/>
       <AboutSection/>
       <PortfolioSection />
       <BahaaSection />
@@ -26,6 +28,7 @@ export default function page() {
       <ServiceSection />
       <TeamSection />
       <StatisticsSection />
+
     </div>
   );
 }
