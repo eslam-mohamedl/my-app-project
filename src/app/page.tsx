@@ -1,3 +1,4 @@
+import CardSection from "@/components/organisms/cardSection";
 import HeroSection from "@/components/organisms/HeroSection";
 import Navbar from "@/components/organisms/Navbar";
 export default function page() {
@@ -5,6 +6,7 @@ export default function page() {
     <div>
       <HeroSection />
       <Navbar />
+      <CardSection />
     </div>
   );
 }
