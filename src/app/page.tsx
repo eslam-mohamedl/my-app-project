@@ -1,5 +1,3 @@
-
-import AboutSection from "@/components/organisms/AboutSection";
 import ContactSection from "@/components/organisms/ContactSection";
 import HeroSection from "@/components/organisms/HeroSection";
 import Navbar from "@/components/organisms/Navbar";
@@ -11,16 +9,16 @@ import Eslam from "@/components/organisms/Eslam";
 import ServiceSection from "@/components/organisms/ServiceSection";
 import TeamSection from "../components/organisms/TeamSection";
 import StatisticsSection from "@/components/organisms/StatisticsSection";
-import CardSection from "@/components/organisms/cardSection";
-
-
+import CardSection from "@/components/organisms/CardSection";
+import AboutSection from "@/components/organisms/AboutSection";
+import GhezwanSection from "@/components/organisms/GhezwanSection";
 export default function page() {
   return (
     <div>
       <HeroSection />
       <Navbar />
-      <Ahmed/>
-      <AboutSection/>
+      <Ahmed />
+      <AboutSection />
       <PortfolioSection />
       <BahaaSection />
       <ContactSection />
@@ -30,6 +28,7 @@ export default function page() {
       <TeamSection />
       <StatisticsSection />
       <CardSection />
+      <GhezwanSection />
     </div>
   );
 }

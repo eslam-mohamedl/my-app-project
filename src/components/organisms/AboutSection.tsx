@@ -1,10 +1,7 @@
-import React from 'react'
-
-const AboutSection = () => {
+export default function AboutSection() {
   return (
-<div className="bg-gray-400 text-white w-full p-5 flex justify-center items-center">
+    <div className="bg-gray-400 text-white w-full p-5 flex justify-center items-center">
       AboutSection
-    </div>  )
+    </div>
+  );
 }
-
-export default AboutSection
