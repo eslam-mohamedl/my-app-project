@@ -1,7 +1,10 @@
-export default function Navbar() {
+
+function Navbar() {
   return (
-    <div className="bg-gray-400 text-white w-full p-5 flex justify-center items-center">
+    <div className="text-4xl font-bold items-center flex justify-center p-5 bg-indigo-400 text-cyan-700">
       Navbar
     </div>
-  );
+  )
 }
+
+export default Navbar
