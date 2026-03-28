@@ -1,3 +1,4 @@
+import ContactSection from "@/components/organisms/ContactSection";
 import HeroSection from "@/components/organisms/HeroSection";
 import Navbar from "@/components/organisms/Navbar";
 import Testimonial from "@/components/organisms/Testimonial";
@@ -10,6 +11,7 @@ export default function page() {
     <div>
       <HeroSection />
       <Navbar />
+      <ContactSection />
       <Testimonial />
       <Eslam />
       <ServiceSection />
