@@ -6,6 +6,8 @@ import Testimonial from "@/components/organisms/Testimonial";
 import Eslam from "@/components/organisms/Eslam";
 import ServiceSection from "@/components/organisms/ServiceSection";
 import TeamSection from "../components/organisms/TeamSection";
+import StatisticsSection from "@/components/organisms/StatisticsSection";
+
 export default function page() {
   return (
     <div>
@@ -17,6 +19,7 @@ export default function page() {
       <Eslam />
       <ServiceSection />
       <TeamSection />
+      <StatisticsSection />
     </div>
   );
 }
