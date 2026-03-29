@@ -13,6 +13,7 @@ import StatisticsSection from "@/components/organisms/StatisticsSection";
 import CardSection from "@/components/organisms/CardSection";
 import AboutSection from "@/components/organisms/AboutSection";
 import GhezwanSection from "@/components/organisms/GhezwanSection";
+import mohamed from "@/components/organisms/mohamed";
 
 export default function page() {
   return (
@@ -32,6 +33,7 @@ export default function page() {
       <StatisticsSection />
       <CardSection />
       <GhezwanSection />
+       <mohamed/>
     </div>
   );
 }
