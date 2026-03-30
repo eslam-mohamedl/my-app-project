@@ -16,7 +16,7 @@ import GhezwanSection from "@/components/organisms/GhezwanSection";
 import Mohamed from "@/components/organisms/mohamed";
 import Mohamed2 from "@/components/organisms/mohamed2";
 import Mohamed3 from "@/components/organisms/Mohamed3";
-
+import Messi from "@/components/organisms/messi";
 export default function page() {
   return (
     <div>
@@ -38,6 +38,7 @@ export default function page() {
        <Mohamed />
        <Mohamed2 />
        <Mohamed3 />
+        <Messi />
 
     </div>
   );
