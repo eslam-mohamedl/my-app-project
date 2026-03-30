@@ -1,8 +1,8 @@
-import Testimonial from "@/components/organisms/Testimonial";
+import SkillsSection from "@/components/organisms/SkillsSection"
 export default function page() {
   return (
     <div>
-      <Testimonial />
+      <SkillsSection />
     </div>
   );
 }
